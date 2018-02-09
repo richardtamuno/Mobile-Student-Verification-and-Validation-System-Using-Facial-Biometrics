@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.facialdetection">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/uniport"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/uniport"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentListActivity"
+            android:label="@string/title_activity_student_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddStudentActivity" />
+        <activity android:name=".StudentDetailsActivity" />
+        <activity android:name=".VerificationActivity" />
+        <activity android:name=".SelectImageActivity" />
+        <activity android:name=".Login.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Home"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>

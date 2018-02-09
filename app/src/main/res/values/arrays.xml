@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_orders">
+        <item>Select Department</item>
+        <item>CSC</item>
+        <item>MCB</item>
+        <item>OTHERS</item>
+    </string-array>
+
+
+</resources>

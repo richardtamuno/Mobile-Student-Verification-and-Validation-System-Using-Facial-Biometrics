@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "967129489274",
+    "firebase_url": "https://facial-recognition-80146.firebaseio.com",
+    "project_id": "facial-recognition-80146",
+    "storage_bucket": "facial-recognition-80146.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967129489274:android:9363ed7ed42b8dfd",
+        "android_client_info": {
+          "package_name": "com.example.root.facialdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967129489274-ml7aapnfrgfr46kqbuhmmf3ej0rompqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.root.facialdetection",
+            "certificate_hash": "2720a5541930d18673869d46951b2e75c6d202d2"
+          }
+        },
+        {
+          "client_id": "967129489274-nfds1cveopbl1fci6hpobv017c5vlnn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYBRAsaFlFLmqIPtqUn4aKTZYqPKktfXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967129489274-nfds1cveopbl1fci6hpobv017c5vlnn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
